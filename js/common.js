@@ -67,3 +67,10 @@ $('html, body').stop().animate({
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 
 });
+
+//
+var submitted=false;
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
