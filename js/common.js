@@ -72,5 +72,5 @@ $('html, body').stop().animate({
 var submitted=false;
 $('#gform').on('submit', function(e) {
   $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Your submission has been processed...');
+  $('#gform').prepend('Спасибо! Данные отправлены...');
   });
