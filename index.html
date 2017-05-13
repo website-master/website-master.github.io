@@ -400,6 +400,7 @@
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6">
+						<div id="okay"></div>
 <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSckMsoOBTagx-ig0tjhKeMPRvrtrXqGeoHjQHCkBbNT29CiWQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
   Name:<br>
   <input type="text" name="entry.1790396440" id="entry.1790396440"><br>
@@ -459,7 +460,7 @@
 <script type="text/javascript">
 $('#gform').on('submit', function(e) {
   $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Your submission has been processed...');
+  $('#okay').prepend('Your submission has been processed...');
   });
 </script>
 </body>
